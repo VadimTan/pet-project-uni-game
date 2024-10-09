@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="./style.css" />
+		<title>Authorization</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="/">Home</a>
+				<a href="/authorization.html">Authorization</a>
+				<a href="/game.html">Game</a>
+				<a href="/leaderboard.html">Leaderboard</a>
+			</nav>
+		</header>
+		<section class="section-register-form">
+			<div class="form">
+				<div class="input-container">
+					<label for="name">Username:</label>
+					<input
+						class="username"
+						name="name"
+						type="text" />
+				</div>
+				<div class="input-container">
+					<label for="pass">Password:</label>
+					<input
+						class="password"
+						type="password"
+						name="pass" />
+				</div>
+				<div class="request-buttons">
+					<button class="register-btn">Register</button>
+					<button class="authorize-btn">Authorize</button>
+				</div>
+			</div>
+		</section>
+		<div class="score-container">
+			<input
+				class="score-number"
+				type="number"
+				name="score" />
+			<button class="score-send">Send</button>
+		</div>
+		<script
+			type="module"
+			src="./script.js"></script>
+	</body>
+</html>

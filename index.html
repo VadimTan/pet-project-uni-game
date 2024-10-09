@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="./style.css" />
+		<title>Home</title>
+	</head>
+	<body>
+		<a
+			class="link-to-top"
+			href="#top">
+			<img
+				src="./jakori.svg"
+				alt="top" />
+		</a>
+		<header>
+			<nav id="top">
+				<a href="/">Home</a>
+				<a href="/authorization.html">Authorization</a>
+				<a href="/game.html">Game</a>
+				<a href="/leaderboard.html">Leaderboard</a>
+			</nav>
+		</header>
+		<main>
+			<section class="description">
+				<h2>Memory game</h2>
+				<h4>Test your memory by testing color sequence</h4>
+			</section>
+			<section class="section-game-rules">
+				<div class="how-to-play">
+					<h2>How to play</h2>
+					<ol>
+						<li>
+							Задача игроков — собрать как можно больше разноцветных шариков,
+							разбросанных по игровому полю. Шарики разных цветов приносят
+							разное количество очков.
+						</li>
+						<li>
+							Каждый ход игрок может либо передвинуться на одну клетку в любом
+							направлении, либо взять один шарик, если он находится на клетке с
+							ним.
+						</li>
+						<li>Специальные клетки поля дают бонусы.</li>
+						<li>
+							Ловушки: если игрок встает на красную клетку, он теряет один
+							случайный шарик из своей коллекции.
+						</li>
+						<li>
+							Игра заканчивается через 10 ходов или когда все шарики собраны.
+							Побеждает тот, у кого больше всего очков.
+						</li>
+					</ol>
+				</div>
+				<div class="game-rules">
+					<h2>Game rules</h2>
+					<ul>
+						<li>Игроки бросают кубик, чтобы определить количество шагов.</li>
+						<li>Каждое действие ограничено временем — 30 секунд.</li>
+						<li>Пропуск хода, если попал на чёрную клетку.</li>
+						<li>Один бонусный ход за каждую пару собранных предметов.</li>
+						<li>Победа, если набрано 100 очков.</li>
+					</ul>
+				</div>
+			</section>
+			<section class="image-section">
+				<img
+					src="./simon-img.png"
+					alt="simon-game-img" />
+			</section>
+		</main>
+		<script src="./request-sender.js"></script>
+		<script src="./script.js"></script>
+	</body>
+</html>
